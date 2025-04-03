@@ -30,6 +30,23 @@ sudo cp trash.sh /usr/local/bin/trash
 sudo chmod 755 /usr/local/bin/trash
 ```
 
+## Uninstallation
+
+If you no longer need trash.sh, you can uninstall it by following these steps:
+Remove the script
+
+sudo rm -f /usr/local/bin/trash
+
+Remove the trash directory (optional)
+
+By default, trashed files are stored in ~/.trash. If you want to remove all trashed files and the directory, run:
+
+rm -rf ~/.trash
+
+    ⚠️ Warning: This action is irreversible and will permanently delete all trashed files.
+
+If you have configured a custom trash directory, you may also want to remove it manually.
+
 ## Usage
 
 ```bash
