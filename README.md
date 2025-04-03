@@ -13,14 +13,14 @@
 ### Option 1: Direct installation (recommended)
 
 ```bash
-curl -s https://raw.githubusercontent.com/yourusername/trash/main/trash.sh | sudo tee /usr/local/bin/trash > /dev/null && sudo chmod 755 /usr/local/bin/trash
+curl -s https://raw.githubusercontent.com/Jepson73/trash/main/trash.sh | sudo tee /usr/local/bin/trash > /dev/null && sudo chmod 755 /usr/local/bin/trash
 ```
 
 ### Option 2: Manual installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/trash.git
+git clone https://github.com/Jepson73/trash.git
 
 # Move to the repository directory
 cd trash
