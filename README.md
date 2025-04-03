@@ -8,6 +8,19 @@
 - Similar syntax to the familiar `rm` command
 - Works across all directories
 
+### Requirements
+
+    Linux or Unix-based system
+    Bash (/bin/bash)
+
+    curl (may be required for installation)
+
+    📌 If curl is not installed, you can install it with:
+
+sudo apt install curl  # Debian/Ubuntu  
+sudo dnf install curl  # Fedora  
+sudo pacman -S curl    # Arch  
+
 ## Installation
 
 ### Option 1: Direct installation (recommended)
