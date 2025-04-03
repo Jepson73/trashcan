@@ -9,14 +9,14 @@
 - Works across all directories
 - List files in trash in a nice tree structure without the need of installing tree
 
-Trash contents:  
+```Trash contents:  
 ────────────────────────────────────────  
 └── 📁 trash4  
      ├── 📁 trash5  
      │   └── 📁 trash6  
      └── 📄 trashfile4  
 ────────────────────────────────────────  
-    
+```    
 
 ### Requirements
 
